@@ -1,5 +1,6 @@
 package com.jeffersonnguyen.chapter5;
 /**
+ * Prompt and source code copied from zyBooks
  * Challenge Activity 5.2.3
  * Write a for loop to print all elements in courseGrades, following each element with a space (including the last). Print forwards, then backwards. End each loop with a newline. Ex: If courseGrades = {7, 9, 11, 10}, print:
  * 7 9 11 10

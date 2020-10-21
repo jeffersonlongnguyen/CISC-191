@@ -1,5 +1,6 @@
 package com.jeffersonnguyen.chapter5;
 /**
+ * Prompt and source code copied from zyBooks
  * Challenge Activity 5.4.2
  * Assign numMatches with the number of elements in userValues that equal matchValue. userValues has NUM_VALS elements. Ex: If userValues is {2, 1, 2, 2} and matchValue is 2 , then numMatches should be 3.
  *
@@ -27,6 +28,15 @@ public class FindMatchValue {
         }
 
         /* Your solution goes here  */
+        numMatches = 0;
+        for(i = 0; i < NUM_VALS; i++)
+        {
+            if(userValues[i] == matchValue)
+            {
+                numMatches++;
+            }
+        }
+
 
         System.out.println("matchValue: " + matchValue + ", numMatches: " + numMatches);
     }
